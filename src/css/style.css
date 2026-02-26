@@ -165,10 +165,10 @@ header {
 }
 
 .hero-content h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     color: var(--text);
     margin-bottom: 20px;
-    line-height: 1.2;
+    line-height: 1.1;
     transition: color 0.3s ease;
 }
 
@@ -177,7 +177,7 @@ header {
 }
 
 .hero-content p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--text-light);
     margin-bottom: 30px;
     transition: color 0.3s ease;
@@ -211,7 +211,7 @@ header {
 
 .hero-image img {
     max-width: 100%;
-    width: 500px;
+    width: 600px;
     border-radius: 20px;
     box-shadow: 20px 20px 60px var(--shadow);
 }
@@ -229,7 +229,7 @@ header {
 
 .sobre h2 {
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-bottom: 15px;
     color: var(--text);
     transition: color 0.3s ease;
@@ -237,7 +237,7 @@ header {
 
 .sobre h3 {
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 50px;
     color: var(--text-light);
     transition: color 0.3s ease;
@@ -312,7 +312,7 @@ header {
 .cursos > h2 {
     width: 100%;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 3.5rem;
     color: var(--text);
     margin-bottom: 30px;
     transition: color 0.3s ease;
@@ -359,8 +359,8 @@ header {
 
 .cta h2 {
     color: #ffffff;
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+    font-size: 3.5rem;
+    margin-bottom: 40px;
 }
 
 .cta h2 span {
@@ -371,8 +371,8 @@ header {
     background-color: var(--primary);
     color: #ffffff;
     border: none;
-    padding: 18px 50px;
-    font-size: 1.1rem;
+    padding: 25px 58px;
+    font-size: 1.5rem;
     font-weight: 600;
     border-radius: 30px;
     cursor: pointer;
