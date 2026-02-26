@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mão na Massa - Artesanato DIY</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Mão na Massa</h1>
+        <nav class="cabecalho">
+            <ul>
+                <li><a class="Inicio" href="#hero-content">Início</a></li>
+                <li><a class="Sobre" href="#sobre">Sobre nós</a></li>
+                <li><a class="Contato" href="#contato">Contato</a></li>
+            </ul>
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Alternar tema">
+                <span class="moon">🌙</span>
+                <span class="sun">☀️</span>
+            </button>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero" id="hero-content">
+            <div class="hero-content">
+                <h1>Aprenda <span>artesanato</span> sem sair de casa</h1>
+                <p>Cursos práticos com materiais que você já tem em casa. Desenvolva um novo hobby e crie peças únicas!</p>
+                <a href="#cursos" class="btn">Ver Cursos</a>
+            </div>
+            <div class="hero-image">
+                <img src="src/img/DIY.jpg" alt="Pessoa fazendo artesanato">
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <h2>O que você aprende?</h2>
+            <h3>Na Mão na Massa, você irá ter:</h3>
+
+            <div class="card-sobre">
+                <article class="card">
+                    <h3>Passo a passo</h3>
+                    <p>Veja e reveja técnicas, aprenda como fazer com facilidade.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Vídeos curtos</h3>
+                    <p>Tenha recursos visuais e melhore seu desempenho com a prática.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Economize</h3>
+                    <p>Tenha o que precisa sem precisar gastar, faça você mesmo!</p>
+                </article>
+            </div>
+
+            <div class="cursos" id="cursos">
+                <h2>Cursos populares</h2>
+                <article class="card">
+                    <h3>Vela aromatizada</h3>
+                    <p>R$ 40,00</p>
+                </article>
+
+                <article class="card">
+                    <h3>Porta-retrato decorado</h3>
+                    <p>R$ 32,00</p>
+                </article>
+
+                <article class="card">
+                    <h3>Cachepô de crochê</h3>
+                    <p>R$ 49,90</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta" id="contato">
+            <h2>Comece hoje com <span>50% OFF</span></h2>
+            <button type="button">Comprar Agora</button>
+        </section>
+    </main>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>
